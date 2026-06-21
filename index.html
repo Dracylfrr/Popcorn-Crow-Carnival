@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popcorn Crow Carnival</title>
+  </head>
+  <body>
+    <main>
+      <section class="game-shell">
+        <canvas id="game" width="1280" height="720" aria-label="Popcorn Crow Carnival game"></canvas>
+        <nav class="game-controls" aria-label="Game controls">
+          <button id="pause-button" type="button"><span class="pause-copy"><span class="circle-icon">&#8545;</span>Pause</span><span class="continue-copy"><span class="circle-icon">&#9654;</span>Continue</span></button>
+          <button id="exit-button" type="button"><span class="circle-icon">&#9632;</span>Quit</button>
+        </nav>
+        <nav class="start-actions" aria-label="Start menu">
+          <button id="play-button" type="button"><span class="circle-icon">&#9654;</span>Play</button>
+          <button id="powerups-button" type="button"><span class="circle-icon">&#9733;</span>Powerups</button>
+          <button id="scores-button" type="button"><span class="circle-icon">&#9819;</span>Scores</button>
+        </nav>
+        <nav class="game-over-actions" aria-label="Game over controls">
+          <button id="replay-button" type="button"><span class="circle-icon">&#8635;</span>Play Again</button>
+          <button id="menu-button" type="button"><span class="circle-icon">&#8962;</span>Main Menu</button>
+        </nav>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
